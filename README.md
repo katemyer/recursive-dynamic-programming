@@ -1,6 +1,6 @@
 # Recursion & Dynamic Programming
 
-In this assignment you will practice writing recursion and dynamic programming in a pair of exercises.  There is also an optional harder assignment.
+In this assignment you will practice writing recursion and dynamic programming in a pair of exercises.  There is also an optional harder followup to the second exercise.
 
 ## Learning Goals
 
@@ -26,7 +26,7 @@ Restrictions:
   - You cannot use a loop
   - Your solution should be O(1) space complexity.
 
-## Recursive Digit Sum
+## Superdigit
 
 We define super digit of an integer  using the following rules:
 
@@ -44,3 +44,21 @@ super_digit(2) --> 2
 ```
 
 So the super_digit of `9875` is `2`.
+
+## Refined Super Digit - Optional
+
+In this exercise we will build on the Superdigit concept.  A refined superdigit is a determined by concatenating a numbrer `n` a specific `k` number of times and then calculating the superdigit.  
+
+For example if k = 3 and n = 148
+
+```
+refined_superdigit(n, k) = superdigit(148148148) 
+= superdigit(1 + 4 + 8 + 1 + 4 + 8 + 1 + 4 + 8) 
+= superdigit(39) 
+= superdigit(3 + 9) 
+= superdigit (12) 
+= superdigit (1 + 2)
+= 3
+```
+
+You can use your superdigit solution in the solution for refined_superdigit.  Can you reduce the time complexity?
