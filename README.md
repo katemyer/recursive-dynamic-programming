@@ -24,7 +24,7 @@ Fib(n) = Fib(n-2) + Fib(n-1), for all n >= 2
 Restrictions:
 
   - You cannot use a loop
-  - Your solution should be O(1) space complexity.
+  - Your solution should be O(n) space complexity, due to the call stack.
 
 ## Superdigit
 
