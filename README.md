@@ -62,3 +62,7 @@ refined_superdigit(n, k) = superdigit(148148148)
 ```
 
 You can use your superdigit solution in the solution for refined_superdigit.  Can you reduce the time complexity?
+
+## Problem Source
+
+- [HackerRank Super Digit](https://www.hackerrank.com/challenges/super-digit/problem)
