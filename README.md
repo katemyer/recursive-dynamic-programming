@@ -37,9 +37,9 @@ Otherwise, the super digit of `x` is equal to the super digit of the sum of the 
 For example, the super digit of `9875` will be calculated as:
 
 ```
-super_digit(9875) --> 9 + 8 + 7 + 5 = 29
-super_digit(29)   --> 2 + 9 = 11
-super_digit(11)   --> 1 + 1 = 2
+super_digit(9875) --> superdigit(9 + 8 + 7 + 5) = superdigit(29)
+super_digit(29)   --> superdigit(2 + 9) = superdigit(11)
+super_digit(11)   --> superdigit(1 + 1) = superdigit(2)
 super_digit(2) --> 2
 ```
 
