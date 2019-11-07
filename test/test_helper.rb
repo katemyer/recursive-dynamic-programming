@@ -6,5 +6,5 @@ require "minitest/skip_dsl"
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 require_relative "../lib/fibonacci"
-require_relative "../lib/sum_of_substrings"
+require_relative "../lib/super_digit"
 
