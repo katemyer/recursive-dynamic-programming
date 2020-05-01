@@ -2,6 +2,8 @@
 
 In this assignment you will practice writing recursion and dynamic programming in a pair of exercises.  There is also an optional harder followup to the second exercise.
 
+**Due Monday May 4th**
+
 ## Learning Goals
 
 In this exercise you will
